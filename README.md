@@ -47,8 +47,6 @@ Ensure you have Node.js and npm installed on your machine.
 2. Installation
 Open your terminal, clone the repository, and install the dependencies:
 
-Bash
-
 # Clone the repository
 git clone [your_repository_path]
 
@@ -57,20 +55,15 @@ cd fast-react-pizza-web
 
 # Install dependencies
 npm install
+
 3. Running the application
 Run the project in development mode:
-
-Bash
-
 npm run dev
 The application will launch at http://localhost:5173 (or a different port if 5173 is in use).
 
 4. Build and Deploy
 To create a production-ready build:
-
-Bash
-
-npm run build
+npm run build      
 The output will be in the dist directory.
 
 🤝 Contributions
