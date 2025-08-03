@@ -20,25 +20,25 @@ Build Tool: Vite
 ✨ Key Features
 Diverse Pizza Menu: Displays a list of available pizzas with detailed information about ingredients and prices.
 
-Shopping Cart:
+--Shopping Cart:
 
-Add, increase, or decrease product quantities.
++ Add, increase, or decrease product quantities.
 
-Remove products from the cart.
++ Remove products from the cart.
 
-Automatic total price calculation.
++ Automatic total price calculation.
 
-Order Placement:
+--Order Placement:
 
-Simple and easy-to-use form for entering delivery information.
++ Simple and easy-to-use form for entering delivery information.
 
-Handles order logic and submits data to a "server" (mocked or real API).
++ Handles order logic and submits data to a "server" (mocked or real API).
 
-Order Tracking: Allows users to view the status and details of their placed orders.
+-- Order Tracking: Allows users to view the status and details of their placed orders.
 
-Geolocation Integration: (If applicable) Uses the navigator.geolocation API to automatically populate the delivery address.
+-- Geolocation Integration: (If applicable) Uses the navigator.geolocation API to automatically populate the delivery address.
 
-Modern State Management: Utilizes Redux Toolkit to effectively manage complex application state, avoiding "prop drilling."
+-- Modern State Management: Utilizes Redux Toolkit to effectively manage complex application state, avoiding "prop drilling."
 
 🛠️ Installation and Running the Project
 1. Prerequisites
@@ -47,23 +47,23 @@ Ensure you have Node.js and npm installed on your machine.
 2. Installation
 Open your terminal, clone the repository, and install the dependencies:
 
+```bash
 # Clone the repository
 git clone [your_repository_path]
 
 # Navigate into the project directory
 cd fast-react-pizza-web
-
 # Install dependencies
 npm install
-
+```
 3. Running the application
 Run the project in development mode:
-npm run dev
+`npm run dev`
 The application will launch at http://localhost:5173 (or a different port if 5173 is in use).
 
 4. Build and Deploy
 To create a production-ready build:
-npm run build      
+`npm run build`      
 The output will be in the dist directory.
 
 🤝 Contributions
